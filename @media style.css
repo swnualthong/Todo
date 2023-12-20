@@ -56,6 +56,9 @@
     .todo-app h2 {
         font-size: 24px;
     }
+    .site-copyright {
+        font-size: 12px
+    }
 }
 
 /* iPhone */
@@ -78,6 +81,9 @@
     }
     .todo-app h2 {
         font-size: 20px;
+    }
+    .site-copyright {
+        font-size: 12px
     }
 }
 
@@ -145,8 +151,5 @@
 
     .popup button {
         font-size: 12px;
-    }
-    .site-copyright {
-        font-size: 20px
     }
 }
