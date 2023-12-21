@@ -15,7 +15,6 @@ function addtask() {
         document.body.classList.add('blur-background');
         popup.classList.add("open-popup");
         document.querySelector('.container').classList.add('blur-text');
-        document.querySelector('.site-copyright').classList.add('blur-text');
         isPopupOpen = true;
     } else {
         let li = document.createElement("li");
@@ -33,7 +32,6 @@ function addtask() {
 function closePopup() {
     document.body.classList.remove('blur-background');
     document.querySelector('.container').classList.remove('blur-text');
-    document.querySelector('.site-copyright').classList.remove('blur-text');
     popup.classList.remove("open-popup");
     isPopupOpen = false;
 }
